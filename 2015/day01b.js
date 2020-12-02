@@ -6,6 +6,7 @@ fs.readFile('./inputs/day01aInput.txt', 'utf8' , (err, puzzleInput) => {
     console.error(err)
     return
   }
+  // 1795
   console.log("Puzzle Answer:", getFloor(puzzleInput))
 })
 
