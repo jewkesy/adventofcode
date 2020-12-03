@@ -1,9 +1,10 @@
 const fs = require("fs")
 const readline = require('readline');
 var console = require('tracer').colorConsole();
+const assert = require("assert")
 
-var file = './inputs/day03aInput.txt'; // Answer: 3952146825
-// var file = './inputs/day03aTestInput.txt'; // Answer: 336
+// var file = './inputs/day03aInput.txt'; // Answer: 3952146825
+var file = './inputs/day03aTestInput.txt'; // Answer: 336
 var repeatTimes = 400
 let trees = 0;
 
@@ -15,6 +16,7 @@ treeArr.push(getRoute(getSlope(file, repeatTimes), 0, 0, 5, 1));
 treeArr.push(getRoute(getSlope(file, repeatTimes), 0, 0, 7, 1));
 treeArr.push(getRoute(getSlope(file, repeatTimes), 0, 0, 1, 2));
 
+
 console.log(treeArr)
 
 let answer = 1;
@@ -22,6 +24,7 @@ for (let i = 0; i < treeArr.length; i++) {
     answer = (answer * treeArr[i])
 }
 console.log(answer)
+assert(answer == 336)
 
 function getRoute(slope, x, y, right, down) {
     if (x == 0 && y == 0) trees = 0;
