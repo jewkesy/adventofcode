@@ -1,7 +1,7 @@
 const fs = require("fs")
 var console = require('tracer').colorConsole();
 
-fs.readFile('./inputs/day04aInput.txt', 'utf8' , (err, puzzleInput) => {
+fs.readFile('./input.txt', 'utf8' , (err, puzzleInput) => {
   if (err) {
     console.error(err)
     return

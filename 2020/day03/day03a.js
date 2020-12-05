@@ -7,8 +7,8 @@ const right = 3;
 const down = 1;
 
 var trees = 0;
-getRoute(getSlope('./inputs/day03aTestInput.txt', 3), 0, 0);
-// getRoute(getSlope('./inputs/day03aInput.txt', 40), 0, 0);
+getRoute(getSlope('./day03aTestInput.txt', 3), 0, 0);
+// getRoute(getSlope('./input.txt', 40), 0, 0);
 console.log("Answer", trees)  //205
 assert(trees == 7)
 

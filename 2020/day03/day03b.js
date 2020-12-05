@@ -3,8 +3,8 @@ const readline = require('readline');
 var console = require('tracer').colorConsole();
 const assert = require("assert")
 
-// var file = './inputs/day03aInput.txt'; // Answer: 3952146825
-var file = './inputs/day03aTestInput.txt'; // Answer: 336
+// var file = './input.txt'; // Answer: 3952146825
+var file = './day03aTestInput.txt'; // Answer: 336
 var repeatTimes = 400
 let trees = 0;
 
