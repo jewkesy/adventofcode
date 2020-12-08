@@ -11,6 +11,8 @@ Day 4, Part 1: 237
 Day 4, Part 2: 172
 Day 5, Part 1: 861
 Day 5, Part 2: 633 
+Day 6, Part 1: 6521
+Day 6, Part 2: 3305
 
 
 ## 2015
