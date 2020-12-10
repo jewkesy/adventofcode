@@ -19,6 +19,7 @@ Day 8, Part 1: 2058
 Day 8, Part 2: 1000
 Day 9, Part 1: 57195069
 Day 9, Part 2: 7409241
+Day 10, Part 1: 2080
 
 
 ## 2015
