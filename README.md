@@ -1,5 +1,9 @@
 # adventofcode
 
+## 2021
+Day 1, Part 1: 1448
+Day 1, Part 2: 1471
+
 ## 2020
 Day 1, Part 1: 211899
 Day 1, Part 2: 275765682
