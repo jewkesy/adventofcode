@@ -5,6 +5,8 @@ Day 1, Part 1: 1448
 Day 1, Part 2: 1471
 Day 2, Part 1: 2039256
 Day 2, Part 2: 1856459736
+Day 3, Part 1: 3895776
+Day 3, PArt 2: 7928162
 
 ## 2020
 Day 1, Part 1: 211899
